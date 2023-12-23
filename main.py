@@ -1,20 +1,31 @@
-#перше завдання
-a = int(input("введіть число"))
-print(a // 10)
-print(a % 10)
 
-#друге завдання
 j = int(input("введіть число"))
 a1 = print(j % 10)
 b1 = print(j // 10 % 10)
 c1 = print(j // 100 )
 print(a1 + b1 + c1)
 
-#третє завдання
-b = int(input("введіть перше число"))
-c = int(input("введіть друге число"))
-int
+h = int(input("введіть число"))
+h1 = print(h % 10)
+h2 = print(h // 10 % 10)
+h3 = print(h // 100)
+h4 = print(h // 1000)
+print(h1 * h2 * h3 * h4)
 
-#четверте завдання
-d = int(input("введіть число"))
-print(d*1.8+35)
+m = int(input("введіть метри"))
+m1 = print(m * 10)
+m2 = print(m * 100)
+m3 = print(m * 1000)
+m4 = print(m / 1.609)
+print(m1 , m2 , m3 , m4)
+
+s = int(input("введить висоту трикутника"))
+s1 = int(input("введіть розмір основи трикутника"))
+print(0.5 * s1 * s)
+
+f = int(input("введіть число"))
+f1 = (f % 10)
+f2 = (f // 10 % 10)
+f3 = (f // 100 % 10)
+f4 = (f // 1000)
+print(f1 , f2 , f3 , f4)
