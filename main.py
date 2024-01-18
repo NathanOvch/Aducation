@@ -1,31 +1,66 @@
+#3
 
-j = int(input("введіть число"))
-a1 = print(j % 10)
-b1 = print(j // 10 % 10)
-c1 = print(j // 100 )
-print(a1 + b1 + c1)
+tyu = int(input("Введіть число"))
+if tyu == 0:
+    print("число дорівнює нулю")
+elif tyu >= 0:
+    print("число більше нуля")
+elif tyu <= 0:
+    print("число меньше нуля")
 
-h = int(input("введіть число"))
-h1 = print(h % 10)
-h2 = print(h // 10 % 10)
-h3 = print(h // 100)
-h4 = print(h // 1000)
-print(h1 * h2 * h3 * h4)
+#1
 
-m = int(input("введіть метри"))
-m1 = print(m * 10)
-m2 = print(m * 100)
-m3 = print(m * 1000)
-m4 = print(m / 1.609)
-print(m1 , m2 , m3 , m4)
+day = int(input('Введіть номер дня тижня'))
+if day == 1:
+    print("Понеділок")
+elif day == 2:
+    print("Вівторок")
+elif day == 3:
+    print("Середа")
+elif day == 4:
+    print("Четвер")
+elif day == 5:
+    print("П'ятниця")
+elif day == 6:
+    print("Субота")
+elif day == 7:
+    print("Неділя")
 
-s = int(input("введить висоту трикутника"))
-s1 = int(input("введіть розмір основи трикутника"))
-print(0.5 * s1 * s)
+#3
 
-f = int(input("введіть число"))
-f1 = (f % 10)
-f2 = (f // 10 % 10)
-f3 = (f // 100 % 10)
-f4 = (f // 1000)
-print(f1 , f2 , f3 , f4)
+moon = int(input('Введіть номер місяця року'))
+if moon == 1:
+    print("Січень")
+elif moon == 2:
+    print("Лютий")
+elif moon == 3:
+    print("Березень")
+elif moon == 4:
+    print("Квітень")
+elif moon == 5:
+    print("Травень")
+elif moon == 6:
+    print("Червень")
+elif moon == 7:
+    print("Липень")
+if moon == 8:
+    print("Серпень")
+elif moon == 9:
+    print("Вересень")
+elif moon == 10:
+    print("Жовтень")
+elif moon == 11:
+    print("Листопад")
+elif moon == 12:
+    print("Грудень")
+
+#4
+
+a = int(input('Введіть число'))
+b = int(input('Введіть число'))
+if a == b:
+    print("Вони рівні")
+elif a >= b:
+    print(a > b)
+elif a <= b:
+    print(a < b)
